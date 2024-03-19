@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Cherokee 140',
+    summary: 'The Cessna 150s intuitive controls and forgiving flight characteristics make it a joy to fly. Perfect for flight training',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Do not miss out on the opportunity to experience the magic of flight in the Cessna 150. Contact us today to schedule a demo flight ',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -122,7 +122,7 @@ function Feature({ feature, isActive, className, ...props }) {
       >
         {feature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-900">
+      <p className="mt-2 font-display text-md text-slate-900">
         {feature.summary}
       </p>
       <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
