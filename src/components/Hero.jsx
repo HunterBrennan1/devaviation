@@ -28,11 +28,10 @@ export function Hero() {
         
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
+        Getting your flying hours can be tough, but with Devaney Avation the limit is beyond the sky - scroll bellow for more info
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get 6 months free</Button>
+        <Button href="/register">Sign up today!</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"
@@ -48,7 +47,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Florida area local plane rentals
         </p>
         <ul
           role="list"
