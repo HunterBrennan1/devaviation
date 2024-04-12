@@ -47,7 +47,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Florida area local plane rentals
+          Florida area local plane rentals!
         </p>
         <ul
           role="list"
