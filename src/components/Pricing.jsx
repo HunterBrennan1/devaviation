@@ -116,45 +116,49 @@ export function Pricing() {
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Cessna 150"
+            price="$55/hr"
+            description="Great rates for any and all pilots"
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Available for rent',
+              'Based out of KSUA',
+              'No Block booking required',
+              'Pay as you go',
+              'Engine: Continental O-200.',
+              'Push start (Sky Tec starter)',
+              'New rudder cables (and stops), flap cables, battery, fuel sumps,',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Cherokee 140"
+            price="65/hr"
+            description="Perfect for a quick flight"
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Available for rent',
+              'Based out of KSUA',
+              'No Block booking required',
+              'Pay as you go',
+              'Engine: Continental O-200.',
+              'Push start (Sky Tec starter)',
+              'Number of blades: 2',
+              'New rudder cables (and stops), flap cables, battery, fuel sumps,',
             ]}
           />
           <Plan
-            name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            name="Coming Soon"
+            price="$75/hr"
+            description="follow us on instagram for upcoming news! @DevaneyAviation"
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Available for rent',
+              'Based out of KSUA',
+              'No Block booking required',
+              'Pay as you go',
+              'Engine: Continental O-200.',
+              
             ]}
           />
         </div>

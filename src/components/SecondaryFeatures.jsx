@@ -7,6 +7,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { Button } from '@/components/Button'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
@@ -25,7 +26,7 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32  bg-slate-900"
+      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32 h-fit  bg-slate-900"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
@@ -38,7 +39,7 @@ export function SecondaryFeatures() {
         </div>
         <div className='flex flex-row justify-evenly text-center pt-5 gap-5 h-auto'>
         <div className='flex flex-col w-full justify-center'>
-          <h3 className='font-bold text-xl text-white'>CESSNA 150</h3>
+          <h3 className='font-bold text-xl text-white'>N33079 CHEROKEE 140/160</h3>
           <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full pt-5">
       <Carousel slide={false}>
         <img className="rounded-md"  src={ Cessna.src } alt="..." />
@@ -48,15 +49,16 @@ export function SecondaryFeatures() {
       </Carousel>
     </div>
         </div>
-        <div className='flex flex-col w-full
+      <div className='flex flex-col w-full
         '>
-          <h3 className='font-bold text-lg text-white'>CHEROKEE 140</h3>
+          <h3 className='font-bold text-lg text-white'>N3221V CESSNA 150M</h3>
           <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full pt-5">
       <Carousel slide={false}>
         <img className="rounded-md"  src={ cherokee.src } alt="..." />
         <img className="rounded-md"  src={ cherokee2.src } alt="..." />
         <img className="rounded-md"  src={ cherokee3.src } alt="..." />
       </Carousel>
+      
     </div>
         </div>
         </div>
