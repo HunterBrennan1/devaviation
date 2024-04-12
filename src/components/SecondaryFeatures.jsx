@@ -25,21 +25,21 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32  bg-slate-900"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-4xl tracking-tight text-slate-900 sm:text-4xl">
+          <h2 className="font-display text-4xl tracking-tight text-white sm:text-4xl">
             Rentals We Offer!
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 text-lg tracking-tight text-slate-400">
             Looking to spread your wings and take to the sky? Consider earning your hours with some of our popular planes below!
           </p>
         </div>
-        <div className='flex flex-row justify-evenly text-center pt-20 h-96'>
-        <div className='flex flex-col'>
-          <h3 className='font-bold'>CESSNA 150</h3>
-          <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-96 pt-5">
+        <div className='flex flex-row justify-evenly text-center pt-5 gap-5 h-auto'>
+        <div className='flex flex-col w-full justify-center'>
+          <h3 className='font-bold text-xl text-white'>CESSNA 150</h3>
+          <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full pt-5">
       <Carousel slide={false}>
         <img className="rounded-md"  src={ Cessna.src } alt="..." />
         <img className="rounded-md"  src={ Cessna2.src } alt="..." />
@@ -48,9 +48,10 @@ export function SecondaryFeatures() {
       </Carousel>
     </div>
         </div>
-        <div className='flex flex-col'>
-          <h3 className='font-bold'>CHEROKEE 140</h3>
-          <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-96 pt-5">
+        <div className='flex flex-col w-full
+        '>
+          <h3 className='font-bold text-lg text-white'>CHEROKEE 140</h3>
+          <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full pt-5">
       <Carousel slide={false}>
         <img className="rounded-md"  src={ cherokee.src } alt="..." />
         <img className="rounded-md"  src={ cherokee2.src } alt="..." />
