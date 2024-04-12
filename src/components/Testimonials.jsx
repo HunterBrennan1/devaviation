@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+      "Devaney Aviation offers top-notch rentals! Both the Cessna 150 and Cherokee 140 were in great condition. The staff made the process smooth and enjoyable. Highly recommend!",
       author: {
         name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        role: 'Florida Resident',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+      "Devaney Aviation exceeded my expectations. Their Cessna 150 and Cherokee 140 rentals were clean and well-equipped. Friendly staff and seamless service. Will definitely return!",
       author: {
         name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        role: 'Florida Resident',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,20 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+      "Devaney Aviation delivers exceptional rentals! Both the Cessna 150 and Cherokee 140 were in pristine condition. The rental process was seamless, and the staff was friendly and knowledgeable. Highly recommended for a great flying experience!",
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
+        name: 'Peter Renolds',
+        role: 'Florida Resident',
+        image: avatarImage3,
       },
     },
+    
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+      "Devaney Aviation provided a fantastic rental experience. The Cessna 150 and Cherokee 140 were well-maintained and performed flawlessly. Great service and competitive rates. Highly recommended!",
       author: {
         name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        role: 'Florida Resident',
         image: avatarImage2,
       },
     },
@@ -51,19 +52,19 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+      "Impressed with Devaney Aviation! Rented both the Cessna 150 and Cherokee 140—both in excellent shape. Easy rental process and helpful staff. Looking forward to flying with them again!",
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Leland Kiehn',
+        role: 'Florida Resident',
+        image: avatarImage5,
       },
-    },
+    }, 
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+      "Highly recommend Devaney Aviation for rentals! Both the Cessna 150 and Cherokee 140 were clean and well-maintained. Smooth rental process and friendly staff. Can't wait to fly with them again!",
       author: {
         name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        role: 'Florida Resident',
         image: avatarImage4,
       },
     },
@@ -88,12 +89,11 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Loved by Florida Locals.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+          Discover why customers love Devaney Aviation! Our Cessna 150 and Cherokee 140 rentals consistently earn rave reviews for their pristine condition, seamless process, and friendly staff. Join our satisfied flyers today!
+          
           </p>
         </div>
         <ul
