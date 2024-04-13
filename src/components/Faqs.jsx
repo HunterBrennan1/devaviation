@@ -6,53 +6,53 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is the hourly rate to rent?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Depends on the aircraft but our prices are very competetive and affortable, refrence pricing above.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'How many aircrafts does Devaney Aviation offer?',
+      answer: 'Currently we offer 2 aircrafts, The Cessna 150 and Cherokee 140',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Where would I locate the required forms to rent?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Contact us via phone (772)-708-4104 or email DevaneyAviation@gmail.com to schedule a meeting',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'What do new renters to Devaney Aviation need to bring in?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Medical, Pilot License, Proof of Currency (Logbook with BFR endorsement, recent check ride, etc), Insurance Form, and a Drivers License',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'What makes Devaney Aviation different from other companies?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'We are locally owned and take pride in maintaining our aircraft with a personal level of touch',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'How long will an aircraft Checkout Take?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Devaney Aviation requires at least 1 hour in air with instructor. This is subject to change based on experience level of renter',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Does Devaney Aviation have an Air traffic controller tower?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'No we do not',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      question: 'Does Devaney Aviation reimburse renters for fuel?',
+      answer: 'Yes, Devaney Aviation will reimburse fuel cost at the current local rates, which change weekly. Renters are reimbursed up to $6.00/gal',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Is Devaney Aviation Locally owned?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Yes we are locally owned and based out of Palm City Florida',
     },
   ],
 ]

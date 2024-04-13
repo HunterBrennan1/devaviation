@@ -2,14 +2,16 @@ import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
+import Devlogo from "@/images/screenshots/devlogo.jpg"
 
 export const metadata = {
   title: {
+    image: {Devlogo},
     template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    default: 'Devaney Aviation - Flying made Simple',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Aircraft Rental service for pilots looking to earn their hours',
 }
 
 const inter = Inter({

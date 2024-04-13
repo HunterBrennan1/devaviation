@@ -31,7 +31,7 @@ export function Hero() {
         Getting your flying hours can be tough, but with Devaney Aviation the limit is beyond the sky - scroll bellow for more info
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Schedule today!</Button>
+        <Button href="#">Schedule today!</Button>
         <Button
           href="https://www.youtube.com/watch?v=oDiIO8SnRFM&ab_channel=Aaron%27sAirways"
           target="_blank"
