@@ -31,9 +31,10 @@ export function Hero() {
         Getting your flying hours can be tough, but with Devaney Avation the limit is beyond the sky - scroll bellow for more info
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Sign up today!</Button>
+        <Button href="/register">Schedule today!</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://www.youtube.com/watch?v=oDiIO8SnRFM&ab_channel=Aaron%27sAirways"
+          target="_blank"
           variant="outline"
         >
           <svg
@@ -47,9 +48,29 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Florida area local plane rentals!
+          Call and schedule today! <span className='text-blue-600'>(772)-708-4104</span>
         </p>
-        <ul
+        <div className='flex flex-row justify-evenly text-slate-900 text-xl font-semibold mt-10  flex-wrap'>
+        <ul className='text-blue-600 underline underline-offset-8 decoration-2'>
+          Martin County
+        </ul>
+        <ul className='text-slate-700 underline underline-offset-8 decoration-2'>
+          St.Lucie County
+        </ul>
+        <ul className='text-slate-600 underline underline-offset-8 decoration-2'>
+          Palm Beach County
+        </ul>
+        <ul className='text-slate-500 underline underline-offset-8 decoration-2'>
+          Indian River County
+        </ul>
+        <ul className='text-slate-400 underline underline-offset-8 decoration-2'>
+          Okeechobee County
+        </ul>
+        <ul className='text-slate-400 underline underline-offset-8 decoration-2'>
+          Highlands County
+        </ul>
+        </div>
+        {/* <ul
           role="list"
           className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
@@ -78,7 +99,7 @@ export function Hero() {
               </ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </Container>
   )
