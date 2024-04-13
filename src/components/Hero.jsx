@@ -28,7 +28,7 @@ export function Hero() {
         
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Getting your flying hours can be tough, but with Devaney Avation the limit is beyond the sky - scroll bellow for more info
+        Getting your flying hours can be tough, but with Devaney Aviation the limit is beyond the sky - scroll bellow for more info
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Schedule today!</Button>
@@ -51,22 +51,22 @@ export function Hero() {
           Call and schedule today! <span className='text-blue-600'>(772)-708-4104</span>
         </p>
         <div className='flex flex-row justify-evenly text-slate-900 text-xl font-semibold mt-10  flex-wrap'>
-        <ul className='text-blue-600 underline underline-offset-8 decoration-2'>
+        <ul className='mb-2 text-blue-600 underline underline-offset-8 decoration-2'>
           Martin County
         </ul>
-        <ul className='text-slate-700 underline underline-offset-8 decoration-2'>
+        <ul className='mb-2 text-slate-700 underline underline-offset-8 decoration-2'>
           St.Lucie County
         </ul>
-        <ul className='text-slate-600 underline underline-offset-8 decoration-2'>
+        <ul className='mb-2 text-slate-600 underline underline-offset-8 decoration-2'>
           Palm Beach County
         </ul>
-        <ul className='text-slate-500 underline underline-offset-8 decoration-2'>
+        <ul className='mb-2 text-slate-500 underline underline-offset-8 decoration-2'>
           Indian River County
         </ul>
-        <ul className='text-slate-400 underline underline-offset-8 decoration-2'>
+        <ul className=' text-slate-400 underline underline-offset-8 decoration-2'>
           Okeechobee County
         </ul>
-        <ul className='text-slate-400 underline underline-offset-8 decoration-2'>
+        <ul className=' text-slate-400 underline underline-offset-8 decoration-2'>
           Highlands County
         </ul>
         </div>
