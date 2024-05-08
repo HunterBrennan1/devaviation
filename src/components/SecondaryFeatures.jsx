@@ -30,14 +30,14 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-4xl tracking-tight text-white sm:text-4xl">
+          <h2 className="font-display text-4xl text-center tracking-tight text-white sm:text-4xl">
             Rentals We Offer!
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-400">
+          <p className="mt-4 text-lg text-center tracking-tight text-slate-400">
             Looking to spread your wings and take to the sky? Consider earning your hours with some of our popular planes below!
           </p>
         </div>
-        <div className='flex flex-row justify-evenly text-center pt-5 gap-5 h-auto'>
+        <div className='sFeatureContainer flex wrap flex-col justify-evenly text-center pt-5 gap-5 h-auto sm:flex-row'>
         <div className='flex flex-col w-full justify-center'>
           <h3 className='font-bold text-xl text-white'>N33079 CHEROKEE 140/160</h3>
           <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-full pt-5">
