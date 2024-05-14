@@ -47,7 +47,7 @@ const faqs = [
     },
     {
       question: 'Does Devaney Aviation reimburse renters for fuel?',
-      answer: 'Yes, Devaney Aviation will reimburse fuel cost at the current local rates, which change weekly. Renters are reimbursed up to $6.00/gal',
+      answer: 'No, Devaney Aviation will not reimburse for fuel cost'
     },
     {
       question: 'Is Devaney Aviation Locally owned?',

@@ -117,7 +117,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Cessna 150"
-            price="$55/hr"
+            price="$55/hr (Dry)"
             description="Great rates for any and all pilots"
             href="/register"
             features={[
@@ -133,7 +133,7 @@ export function Pricing() {
           <Plan
             featured
             name="Cherokee 140"
-            price="65/hr"
+            price="70/hr (Dry)"
             description="Perfect for a quick flight"
             href="/register"
             features={[
@@ -141,15 +141,14 @@ export function Pricing() {
               'Based out of KSUA',
               'No Block booking required',
               'Pay as you go',
-              'Engine: Continental O-200.',
+              'Engine: Lycoming o-320.',
               'Push start (Sky Tec starter)',
               'Number of blades: 2',
-              'New rudder cables (and stops), flap cables, battery, fuel sumps,',
             ]}
           />
           <Plan
             name="Coming Soon"
-            price="$75/hr"
+            price="$75/hr (Dry)"
             description="follow us on instagram for upcoming news! @DevaneyAviation"
             href="/register"
             features={[
