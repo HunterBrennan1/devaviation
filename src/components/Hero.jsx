@@ -50,7 +50,7 @@ export function Hero() {
         <p className="font-display text-base text-slate-900">
           Call and schedule today! <span className='text-blue-600'>(772)-708-4104</span>
         </p>
-        <div className='flex flex-row justify-evenly text-slate-900 text-xl font-semibold mt-10  flex-wrap'>
+        <div className='md:flex flex-row justify-evenly text-slate-900 text-xl font-semibold mt-10 hidden md:block flex-wrap'>
         <ul className='mb-2 text-blue-600 underline underline-offset-8 decoration-2'>
           Martin County
         </ul>

@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 'Where would I locate the required forms to rent?',
       answer:
-        'Contact us via phone (772)-708-4104 or email DevaneyAviation@gmail.com to schedule a meeting',
+        'Contact us via phone (772)-708-4104 or email DevaneyAviation1@gmail.com to schedule a meeting',
     },
   ],
   [
@@ -41,9 +41,9 @@ const faqs = [
   ],
   [
     {
-      question: 'Does Devaney Aviation have an Air traffic controller tower?',
+      question: 'What scheduling service does Devaney Aviation use?',
       answer:
-        'No we do not',
+        'We use flightcircle.com to manage our clients!',
     },
     {
       question: 'Does Devaney Aviation reimburse renters for fuel?',

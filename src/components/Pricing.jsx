@@ -144,6 +144,8 @@ export function Pricing() {
               'Engine: Lycoming o-320.',
               'Push start (Sky Tec starter)',
               'Number of blades: 2',
+              'Garmin 430 WAAS',
+              'IFR Certified',
             ]}
           />
           <Plan
