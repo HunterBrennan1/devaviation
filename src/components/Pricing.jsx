@@ -133,7 +133,7 @@ export function Pricing() {
           <Plan
             featured
             name="Cherokee 140"
-            price="70/hr (Dry)"
+            price="$70/hr (Dry)"
             description="Perfect for a quick flight"
             href="/register"
             features={[
