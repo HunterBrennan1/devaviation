@@ -84,7 +84,7 @@ function MobileNavigation() {
             <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
+            
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -113,7 +113,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/https://www.instagram.com/devaneyaviation/?igsh=OWJ4bjg0N2F0eWdu&utm_source=qr" target="_blank">Instagram</NavLink>
+              <NavLink href="https://www.instagram.com/devaneyaviation/?igsh=OWJ4bjg0N2F0eWdu&utm_source=qr" target="_blank">Instagram</NavLink>
             </div>
             <Button href="#pricing" color="blue">
               <span>
